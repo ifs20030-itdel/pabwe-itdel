@@ -19,7 +19,7 @@
                     <li href="#" class="list-group-item list-group-item-action active" aria-current="true">
                       <h3>Hasil Praktikum</h3>
                     </li>
-                    <a href="assets/pabwe-mg2-11s20030/profile.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-2</a>
+                    <a href="assets/week2/profile.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-2</a>
                     <a href="#" class="list-group-item list-group-item-action">Minggu Ke-3</a>
                     <a href="#" class="list-group-item list-group-item-action">Minggu Ke-4</a>
                 </div>
