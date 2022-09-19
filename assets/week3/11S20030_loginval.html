@@ -1,0 +1,66 @@
+<!--
+    Nama File : 11S20030_loginval.html
+    NIM       : 11S20030
+    Kelas     : 13IF2
+-->    
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+</head>
+<body>
+    <fieldset style="width: 500px">
+        <h1 style="color: rgb(69, 55, 165)"><u>Form Login</u> <img src="profile.png" align="right" width="50" height="50" /></h1>
+        <hr>
+        <form action="" method="get" id="id" oninput="userName.value = 'Username : ' + usernameTxt.value, passWord.value ='Password : ' + passwordTxt.value">
+            <fieldset style="width: 350">
+                <legend>Masukkan akun anda disini</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label>Username:</label>
+                            </td>
+                            <td><input type="text" name="txtUsername" id="usernameTxt"
+                                pattern=".{1,8}" placeholder="Username" title="Maksimal 8 karakter"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Password:</label>
+                            </td>
+                            <td><input type="password" minlength="8" name="txtPassword" id="passwordTxt"
+                                pattern="(?=.[0-9])(?=.[a-z])(?=.*[A-Z]).{8,}" placeholder="Password"
+                                title="Minimal 8 karakter, 1 huruf besar dan 1 angka">
+                            </td>
+                        </tr>     
+                        <tr>
+                            <td>
+                                <button id="buttonLogin" onclick="myFunction()"">Login</button>
+                                <script>
+                                    function myFunction(){                               
+                                        if(usernameCheck == 'Guntur' && passwordCheck == 'S1nagaUruk'){
+                                            alert('login berhasiil')
+                                        } else{
+                                            alert('Username atau password gagal')
+                                        }
+                                    }
+                                    userName.value = tempUsername;
+                                    passWord.value = tempPassword;
+                                </script>
+                           </td>
+                            <td>
+                                <a href="forgotten.html">Forgot username/password</a> 
+                            </td>
+                        </tr>
+                    </table>  
+            </fieldset>      
+            <output id="userName"></output><br>
+            <output id="passWord"></output>
+        </form>
+    </fieldset>
+</body>
+</html>

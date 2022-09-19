@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    border: 2px black solid;
+    width: 1024px;
+    height: 180px;
+    background-color: hsla(175, 100%, 81%, 1);
+}
+
+.judul {
+    font-family: 'Times New Roman';
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+#logo{
+    width: 120;
+    height:120;
+    margin: 25px;
+}
+
+
+
+article {
+    border: 2px solid black;
+    width: 750px;
+    height: fit-content;
+    font-size: 25px;
+    background-color: hsla(108, 100%, 98%, 1);
+}
+
+nav {
+    width: 265px;
+    height: auto;
+    background-color: hsla(108, 100%, 98%, 1);
+}
+
+.identfoto {
+    display: flex;
+    height: auto;
+}
+
+.navAndTag {
+    display: flex;
+}
+
+footer {
+    border: 2px black solid;
+    width: 1024px;
+    height: 70px;
+    background-color:hsla(175, 100%, 81%, 1);
+}
+
+.identitas {
+    width: 150px;
+    display: inline-block;
+}
