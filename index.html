@@ -22,6 +22,7 @@
                     <a href="assets/week2/profile.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-2</a>
                     <a href="assets/week3/loginval.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-3</a>
                     <a href="assets/week4/index.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-4</a>
+                    <a href="assets/week5/mahasiswa.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-5</a>
                 </div>
             </div>
         </div>
