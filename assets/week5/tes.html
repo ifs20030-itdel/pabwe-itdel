@@ -1,0 +1,293 @@
+<!-- 
+    Nama File   : index2.html
+    NIM         : 11S20030
+    Kelas       : 13IF2
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body{
+            color: white;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        .container a{
+            margin: 0 auto;
+        }
+        .container .row{
+            width: 100%;
+        }
+        .slide1{
+            width: auto;
+            height: auto;
+        }
+        form{
+            margin-left: 20px;
+        }
+        .navbar{
+            width: 1024px;
+        }
+        .container2{
+            font-size: smaller;
+            width: 1024px;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 2px solid black;
+        }
+        nav, footer p{
+            border: 1px solid black;
+        }
+        .kanan{
+            border: .5px solid black;
+        }
+        .row{
+            height: 750px;
+        }
+        .row .slide1 h1, .row .slide1 p, .row .slide1 ol, .row .slide1 h2, form{
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        label{
+            color: black;
+        }
+        input, button{
+            border-radius: 5px;
+        }
+        footer p{
+            color: black;
+            line-height: 50px;
+            background-color: #999c9d;
+            width: 1024px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .bag2 .b1{
+            margin-left: calc(36%);
+        }
+        .bag2 .b2{
+            margin-left: calc(31%);
+        }
+        .button3{
+            margin-left: calc(32%);
+        }
+        input{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="margin: 0 auto; background-color: #999c9d;">
+        <div class="container">
+          <a href="https://www.del.ac.id" target="_blank" class="navbar-brand">
+            <img src="../week5/logo.png" alt="logo" width="100" style="border-radius: 10px;">
+          </a>
+          <h2 class="text-light" style="font-weight: 1000" >Situs Web Mahasiswa S1 Informatika</h2>
+          <a href="https://pabwe-minggu5-11s20030.herokuapp.com/assets/week3/loginval.html" target="_blank/"><button class="btn btn-light" type="submit">Login</button></a>
+        </div>
+    </nav>
+    <div class="container2">
+        <div class="row">
+          <div class="col slide1" style="background-color: rgb(112, 142, 144); color: black">
+            <b><h1>Form Reset Password</h1></b>
+            <b><p>Alur Reset Password:</p></b>
+        
+            <ol>
+                <li>Mahasiswa mengisi form Lupa Password</li>
+                <li>Mahasiswa mengisi nama lengkap</li>
+                <li>Lalu mengisi Nomor Induk Mahasiswa</li>
+                <li>Mahasiswa mengisi email yang digunakan</li>
+                <li>Mahasiswa mengisi nomor whatsapp yang aktif untuk dikonfirmasikan oleh Admin</li>
+                <li>Admin mereset password Akun Mahasiswa dan akan dikonfirmasikan ke Mahasiswa</li>
+                <li>Proses Selesai, akun Email siap digunakan Mahasiswa kembali</li>
+                <li>Silakan isi Form Dibawah ini</li>
+            </ol>
+
+            <h2>Form Pendataan</h2>
+            <p>Bagi mahasiswa yang lupa password emailnya silakan isi datanya disini</p>
+        
+            <form action="" method="get">
+                <div class="col-md-4">
+                    <label for="validationDefault01" class="form-label">Nama Lengkap <font color="red">*</font></label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Masukkan Nama Anda" required>
+                    <div class="valid-feedback">
+                        Nama Diterima
+                    </div>                  
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                        Nama minimal memiliki panjang 8 huruf
+                    </div>                
+                </div> 
+
+                <br>       
+                <div class="col-md-4">
+                    <label for="validationDefault02" class="form-label">Nomor Induk Mahasiswa <font color="red">*</font></label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Masukkan NIM Anda" required>
+                    <div class="valid-feedback">
+                        NIM Diterima
+                    </div>                  
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                        NIM minimal memiliki panjang 8 karakter
+                    </div>
+                </div>            
+
+                <br>
+                <div class="col-md-4">
+                    <label for="validationDefault03" class="form-label">Email yang digunakan <font color="red">*</font></label>
+                    <input type="text" class="form-control" id="validationDefault03" placeholder="Masukkan E-mail Anda" required>
+                    <div class="valid-feedback">
+                        E-mail Diterima
+                    </div>                  
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                        E-mail harus terdiri dari "@gmail/@yahoo, .com/.co.id/.org"
+                    </div>   
+                </div>            
+    
+                <br>       
+                <div class="col-md-4">
+                    <label for="validationDefault04" class="form-label">Nomor Whatsapp Aktif <font color="red">*</font></label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Masukkan Nomor WA Anda" required>
+                    <div class="valid-feedback">
+                        Nomor Whatsapp Diterima
+                    </div>                  
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                        Nomor Whatsapp harus memiliki panjang minimal 10 angka
+                    </div>   
+                </div>
+
+                <br>
+                <button type="button" class="buttonUtama">Submit</button>
+                <br><br>
+            </form>
+          </div>
+          <div class="col-3 bg-primary kanan">
+            <div class="col bag2">
+                <a href="tes.html" class="b1"><button type="button" class="btn btn-outline-light button1" style="margin-top: 10px;">Home</button></a>
+                <br><br>
+                <a href="https://pabwe-minggu5-11s20030.herokuapp.com/assets/week4/index.html"  class="b2"><button type="button" class="btn btn-outline-light button2">Profil Diri</button></a>
+                <hr style="border: 5px solid  black; margin-left: -10px; width: 350px">
+                <button type="button" class="btn btn-outline-light button3">Register</button></a>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright@11S20030-2022</p>
+    </footer>
+    <script>
+        const valNama = document.querySelector("#validationDefault01");
+        const valNIM = document.querySelector("#validationDefault02");
+        const valEmail = document.querySelector("#validationDefault03");
+        const valNomor = document.querySelector("#validationDefault04");
+
+        const slide1 = document.querySelector(".slide1");
+
+        const kanan = document.querySelector(".kanan");
+        const row = document.querySelector(".row");
+
+        const btn = document.querySelector(".buttonUtama");
+        const regis = document.querySelector(".button3");
+
+        // membuat settingan awal
+        slide1.style.display = "none";
+        kanan.style.position = "relative";
+        kanan.style.marginLeft = "775px";
+        
+        // menampilkan form ketika tombol register diklik
+        regis.addEventListener("click", function(){
+            slide1.style.display = "block";
+            kanan.style.zIndex = "999";
+            kanan.style.width = "262px";
+            kanan.style.height = "750px";
+            kanan.style.left = "770px";
+        })
+
+        // validasi ketika menekan tombol submit
+        btn.addEventListener("click", function(){
+            row.style.height = "840px";
+            
+            if(valNama.value.length == 0){
+                valNama.classList.add("is-invalid");
+            }
+            else{
+                if(valNama.value.length <8){
+                    valNama.classList.add("is-invalid");
+                }
+                else{
+                    valNama.classList.add("is-valid");
+                    valNama.classList.remove("is-invalid");
+                }
+            }
+
+            if(valNIM.value.length == 0){
+                valNIM.classList.add("is-invalid");
+            }
+            else{
+                if(valNIM.value.length <8){
+                    valNIM.classList.add("is-invalid");
+                }
+                else{
+                    valNIM.classList.add("is-valid");
+                    valNIM.classList.remove("is-invalid");
+                }
+            }
+            
+            if(valEmail.value.length == 0){
+                valEmail.classList.add("is-invalid");
+            }
+            else{
+                if(valEmail.value.length >8){
+                    for(let i = 0; i<valEmail.value.length; i++){
+                        if(valEmail.value.charAt(i)!=="@"){
+                            valEmail.classList.add("is-invalid");
+                        }
+                        else{
+                            valEmail.classList.add("is-valid");
+                        }
+                    }  
+                    if(valEmail.classList.contains("is-invalid")){    
+                        valEmail.classList.remove("is-invalid");
+                    }
+                }
+                else{
+                    valEmail.classList.remove("is-valid");
+                    valEmail.classList.add("is-invalid");
+                }
+            }
+
+            const validationTest = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4,})$/;
+
+            if(valNomor.value.length == 0){
+                valNomor.classList.add("is-invalid");
+            }
+            else{
+                
+                if(valNomor.value.length < 10){
+                    valNomor.classList.add("is-invalid");
+                    valNomor.classList.remove("is-valid");
+                }
+                else{
+                    if(validationTest.test(valNomor.value)==true){
+                        valNomor.classList.add("is-valid");
+                        valNomor.classList.remove("is-invalid")
+                    }
+                    else{
+                        valNomor.classList.add("is-invalid");
+                        valNomor.classList.remove("is-valid")
+                    }
+                }
+            }
+
+            if(valNama.classList.contains("is-valid")&&valNIM.classList.contains("is-valid")&&valEmail.classList.contains("is-valid")&&valNomor.classList.contains("is-valid")){
+                alert("Terimakasih Telah Melakukan Pengisian Dengan Benar");
+                return;
+            }
+        })
+    </script>
+</body>
+</html>
