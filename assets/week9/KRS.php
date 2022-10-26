@@ -47,7 +47,7 @@
     <table cellspacing="5">
         <tr>
             <td width="52%">NIM</td>
-            <td>11S20030s</td>
+            <td>11S20030</td>
         </tr>
         <tr>
             <td>Nama</td>
