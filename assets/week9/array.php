@@ -1,3 +1,9 @@
+<!-- 
+NIM  : 11S20030
+Nama : Vistar Tiop Raja Gukguk
+-->
+
+
 <?php
 define("DISCOUNT", 20);
 $dataBarang = array(

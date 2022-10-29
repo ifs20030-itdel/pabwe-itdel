@@ -1,3 +1,8 @@
+<!-- 
+NIM  : 11S20030
+Nama : Vistar Tiop Raja Gukguk
+-->
+
 <?php
     $nim = "11S14000";
     $nama = "Mahasiswa X";

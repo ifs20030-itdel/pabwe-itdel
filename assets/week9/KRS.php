@@ -1,3 +1,8 @@
+<!-- 
+NIM  : 11S20030
+Nama : Vistar Tiop Raja Gukguk
+-->
+
 <?php
     $krs = array(
         ["kodeMK"=> "11S3109", "namaMK"=> "Pengembangan Aplikasi Berbasis Web", "sks" => 4],
