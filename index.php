@@ -24,7 +24,7 @@
                     <a href="assets/week4/index.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-4</a>
                     <a href="assets/week5/mahasiswa.html" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-5</a>
                     <a href="assets/week9/KRS.php" target="_blank" class="list-group-item list-group-item-action">Minggu Ke-9</a>
-                    <a href="assets/week9_sesi2/11s20030/routes/web.php target="_blank" class="list-group-item list-group-item-action">Minggu Ke-9 Sesi 2</a>
+                    <a href="assets/week9_sesi2/11s20030/public/sapa-publics target="_blank" class="list-group-item list-group-item-action">Minggu Ke-9 Sesi 2</a>
                 </div>
             </div>
         </div>
