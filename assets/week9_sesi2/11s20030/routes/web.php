@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 //Rute Baru
 Route::get('sapa-public', function() {
-    echo "<h1 stlye=text-align:center; >Selamat Datang di Laravel, Vistar Tiop Raja Gukguk</h1>";
+    echo "<h1 stlye=text-align:center; >Selamat Datang di Laravel, Vistar Tiop Raja Gukguk</h1>";   
 });
